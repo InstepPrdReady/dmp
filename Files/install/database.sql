@@ -461,7 +461,7 @@ CREATE TABLE `images` (
   `file` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `track_id` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `title` varchar(40) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `date` date DEFAULT current_timestamp(),
+  `date` date DEFAULT NULL,
   `resolution` varchar(40) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `image_width` int(11) NOT NULL DEFAULT 0,
   `image_height` int(11) NOT NULL DEFAULT 0,
